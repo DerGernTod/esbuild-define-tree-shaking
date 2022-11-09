@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "strict": true,
+        "outDir": "dist/ts",
+        "module": "esnext",
+        "target": "ES5",
+        "noEmitOnError": true,
+        "inlineSourceMap": true,
+        "esModuleInterop": true,
+        "preserveConstEnums": true,
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "importHelpers": true,
+        "composite": true,
+        "incremental": true,
+        "rootDir": "source",
+        "lib": [
+            "ES2017",
+            "DOM",
+        ],
+        "types": []
+    },
+    "include": ["source/**/*.ts"],
+    "exclude": ["source/**/*.spec.ts"]
+}

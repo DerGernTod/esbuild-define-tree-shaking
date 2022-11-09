@@ -1,0 +1,29 @@
+{
+  "name": "esbuild-define-tree-shaking",
+  "version": "1.0.0",
+  "description": "reproducer for esbuild issue with define and tree-shaking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node build.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerGernTod/esbuild-define-tree-shaking.git"
+  },
+  "keywords": [
+    "esbuild",
+    "typescript"
+  ],
+  "author": "gernot.raudner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DerGernTod/esbuild-define-tree-shaking/issues"
+  },
+  "homepage": "https://github.com/DerGernTod/esbuild-define-tree-shaking#readme",
+  "devDependencies": {
+    "esbuild": "^0.15.13",
+    "typescript": "^4.8.4",
+    "ts-node": "^10.9.1"
+  }
+}
